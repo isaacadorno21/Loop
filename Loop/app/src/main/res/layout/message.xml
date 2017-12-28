@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/messageLayout"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBox"
+    android:layout_margin="6dp">
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello! This is a test message. Nothing to see here."
+        android:gravity="end"
+        android:textAlignment="gravity"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/authorTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageTextView"
+        android:gravity="end"
+        android:textAlignment="gravity"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="4dp"
+        android:textStyle="italic"
+        android:text="I'm the author" />
+</RelativeLayout>
