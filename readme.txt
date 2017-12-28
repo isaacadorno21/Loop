@@ -1,0 +1,1 @@
+Loop serves to streamline communication between small organizations.
